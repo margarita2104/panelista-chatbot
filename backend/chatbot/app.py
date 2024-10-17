@@ -128,7 +128,7 @@ def suggest_speakers_from_user_input(user_input: str):
 
     # Use regex to extract numbers from the response text
     speaker_numbers = re.findall(r'\d+', response_text)
-    print("Speaker Numbers:", speaker_numbers)  # Debugging
+    print("Speaker Numbers:", speaker_numbers)
 
     # Directly extract speakers based on the matched numbers
     matched_speakers = extract_speaker_by_numbers(speaker_numbers)
@@ -138,8 +138,8 @@ def suggest_speakers_from_user_input(user_input: str):
         response = "Suggested Speakers:\n"
         for speaker in matched_speakers:
             response += f"- {speaker['name']}\n  Expertise: {speaker['expertise']}\n  Bio: {speaker['bio']}\n"
-        print("Response to Frontend:", response)  # Debugging
+        print("Response to Frontend:", response)
         return response
     else:
-        print("No suitable speaker found based on the input.")  # Debugging
+        print("No suitable speaker found based on the input.")
         return "No suitable speaker found based on the input."

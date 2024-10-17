@@ -35,31 +35,53 @@ const Chatbot = () => {
   const renderSpeakers = (response: string) => {
     const lines = response.split("\n").filter(line => line.trim() !== "");
 
-    return lines.map((line, index) => {
-      if (line.startsWith("- ")) {
-        const [name, expertise, bio] = [
-          line.split(" - ")[0].replace("- ", ""),
-          lines[index + 1]?.replace("  Expertise: ", ""),
-          lines[index + 2]?.replace("  Bio: ", ""),
-        ];
+    // Identify if there's reasoning in the first lines
+    const reasoningIndex = lines.findIndex(line =>
+      line.toLowerCase().includes("i couldn't find")
+    );
+    const reasoningText =
+      reasoningIndex !== -1 ? lines[reasoningIndex] : null;
 
-        return (
-          <div
-            key={index}
-            className="p-4 border rounded-lg shadow-md mb-4 bg-gray-50"
-          >
-            <h3 className="text-lg font-bold text-gray-800">{name}</h3>
-            <p className="text-sm text-gray-600">
-              <strong>Expertise:</strong> {expertise}
-            </p>
-            <p className="text-sm text-gray-600">
-              <strong>Bio:</strong> {bio}
-            </p>
+    // Filter out reasoning from the speaker lines
+    const speakerLines = lines.slice(reasoningIndex + 1);
+
+    return (
+      <>
+        {/* Render reasoning if it exists */}
+        {reasoningText && (
+          <div className="p-4 mb-4 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700">
+            <p>{reasoningText}</p>
           </div>
-        );
-      }
-      return null;
-    });
+        )}
+
+        {/* Render speakers */}
+        {speakerLines.map((line, index) => {
+          if (line.startsWith("- ")) {
+            const [name, expertise, bio] = [
+              line.split(" - ")[0].replace("- ", ""),
+              speakerLines[index + 1]?.replace("  Expertise: ", ""),
+              speakerLines[index + 2]?.replace("  Bio: ", ""),
+            ];
+
+            return (
+              <div
+                key={index}
+                className="p-4 border rounded-lg shadow-md mb-4 bg-gray-50"
+              >
+                <h3 className="text-lg font-bold text-gray-800">{name}</h3>
+                <p className="text-sm text-gray-600">
+                  <strong>Expertise:</strong> {expertise}
+                </p>
+                <p className="text-sm text-gray-600">
+                  <strong>Bio:</strong> {bio}
+                </p>
+              </div>
+            );
+          }
+          return null;
+        })}
+      </>
+    );
   };
 
   return (

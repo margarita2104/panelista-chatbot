@@ -68,5 +68,55 @@
         "topics": "User Experience, Interaction Design, Usability Testing",
         "current_job_title": "UX Designer",
         "career_description": "Emma is a UX designer with a passion for creating intuitive and engaging user experiences. She specializes in interaction design and usability testing, ensuring that her designs not only look great but also function seamlessly. With experience in both web and mobile applications, Emma focuses on user-centered design principles to deliver products that meet users' needs."
+    },
+    {
+        "id": 19,
+        "email": "james.bennett@example.com",
+        "username": "jimbennett",
+        "first_name": "James",
+        "last_name": "Bennett",
+        "topics": "Blockchain, Cryptocurrency, Decentralized Finance",
+        "current_job_title": "Blockchain Consultant",
+        "career_description": "James is a blockchain expert who advises companies on how to implement decentralized systems and cryptocurrencies into their business models. With years of experience in decentralized finance, he has helped startups and enterprises navigate the complex world of blockchain technologies."
+    },
+    {
+        "id": 20,
+        "email": "linda.mckenzie@example.com",
+        "username": "lindamc",
+        "first_name": "Linda",
+        "last_name": "McKenzie",
+        "topics": "Sustainability, Renewable Energy, Green Technology",
+        "current_job_title": "Sustainability Strategist",
+        "career_description": "Linda is a sustainability strategist who helps organizations transition to renewable energy and implement sustainable practices. She has worked with various industries to reduce their carbon footprint and embrace green technologies, promoting eco-friendly innovation."
+    },
+    {
+        "id": 21,
+        "email": "raj.patel@example.com",
+        "username": "rajtheinnovator",
+        "first_name": "Raj",
+        "last_name": "Patel",
+        "topics": "Artificial Intelligence, Machine Learning, Data Science",
+        "current_job_title": "AI Researcher",
+        "career_description": "Raj is an AI researcher specializing in machine learning and data science. He has a strong academic and industry background, working on cutting-edge AI technologies that aim to solve complex problems. Raj enjoys sharing insights on the future of AI and its potential to revolutionize industries"
+    },
+    {
+        "id": 22,
+        "email": "sophia.martinez@example.com",
+        "username": "sophiamart",
+        "first_name": "Sophia",
+        "last_name": "Martinez",
+        "topics": "Digital Marketing, Brand Strategy, Social Media",
+        "current_job_title": "Digital Marketing Expert",
+        "career_description": "Sophia is a digital marketing strategist with over a decade of experience in helping brands build their online presence. She specializes in social media marketing and brand strategy, working with both startups and established companies to create effective digital campaigns that resonate with audiences."
+    },
+    {
+        "id": 23,
+        "email": "aaron.kim@example.com",
+        "username": "aaronkim",
+        "first_name": "Aaron",
+        "last_name": "Kim",
+        "topics": "Cybersecurity, Ethical Hacking, Privacy",
+        "current_job_title": "Cybersecurity Consultant",
+        "career_description": "Aaron is a cybersecurity expert who advises organizations on how to protect their digital infrastructure. With a background in ethical hacking, he provides insights on data privacy, secure software development, and cyber risk management. Aaron is passionate about educating people on the importance of cybersecurity in the digital age."
     }
 ]
