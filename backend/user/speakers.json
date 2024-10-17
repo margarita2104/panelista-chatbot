@@ -38,5 +38,35 @@
         "topics": "Robotics, Artificial Intelligence, Automation",
         "current_job_title": "Robotics Engineer",
         "career_description": "Sarah is a robotics engineer with a strong foundation in AI and automation technologies. She has worked on various projects involving robotic systems and intelligent machines, aiming to enhance efficiency and performance in industrial applications."
+    },
+    {
+        "id": 16,
+        "email": "emily.carter@example.com",
+        "username": "emily_the_expert",
+        "first_name": "Emily",
+        "last_name": "Carter",
+        "topics": "Artificial Intelligence, Machine Learning, Data Ethics",
+        "current_job_title": "Senior Data Scientist",
+        "career_description": "With over a decade of experience in data science, Dr. Carter specializes in developing ethical AI solutions that drive impactful change in the tech industry."
+    },
+    {
+        "id": 17,
+        "email": "jessica.taylor@example.com",
+        "username": "jess_talks",
+        "first_name": "Jessica",
+        "last_name": "Taylor",
+        "topics": "User Experience Design, Product Development, Accessibility",
+        "current_job_title": "UX Designer",
+        "career_description": "With a focus on user-centric design, Jessica has a track record of creating accessible and engaging digital experiences for a diverse audience."
+    },
+    {
+        "id": 18,
+        "email": "emma.watson@example.com",
+        "username": "emmacreative",
+        "first_name": "Emma",
+        "last_name": "Watson",
+        "topics": "User Experience, Interaction Design, Usability Testing",
+        "current_job_title": "UX Designer",
+        "career_description": "Emma is a UX designer with a passion for creating intuitive and engaging user experiences. She specializes in interaction design and usability testing, ensuring that her designs not only look great but also function seamlessly. With experience in both web and mobile applications, Emma focuses on user-centered design principles to deliver products that meet users' needs."
     }
 ]
