@@ -1,122 +1,202 @@
 [
     {
-        "id": 12,
-        "email": "jane.smith1@example.com",
-        "username": "janesmith911",
-        "first_name": "Jane",
-        "last_name": "Smith",
+        "id": 1,
+        "email": "sarah.jones@example.com",
+        "username": "sjones2024",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "topics": "Data Science, Machine Learning, Artificial Intelligence",
+        "current_job_title": "Data Scientist",
+        "career_description": "Sarah has over 5 years of experience analyzing large datasets, developing predictive models, and implementing machine learning algorithms to solve complex business problems"
+    },
+    {
+        "id": 2,
+        "email": "john.doe@example.com",
+        "username": "johnd123",
+        "first_name": "John",
+        "last_name": "Doe",
         "topics": "Web Development, JavaScript, React",
-        "current_job_title": "Developer",
-        "career_description": "Jane is a skilled frontend developer specializing in building responsive web applications. She is proficient in modern JavaScript frameworks like React and Angular, and enjoys crafting intuitive user interfaces."
+        "current_job_title": "Frontend Developer",
+        "career_description": "John is a proficient web developer with expertise in JavaScript frameworks like React and Angular. He focuses on creating seamless user experiences through modern web applications"
+    },
+    {
+        "id": 3,
+        "email": "emily.wood@example.com",
+        "username": "ewood23",
+        "first_name": "Emily",
+        "last_name": "Wood",
+        "topics": "Graphic Design, UI/UX, Branding",
+        "current_job_title": "Senior UX Designer",
+        "career_description": "Emily specializes in crafting visually appealing and user-centered designs for web and mobile applications, ensuring brand consistency and intuitive navigation"
+    },
+    {
+        "id": 4,
+        "email": "michael.smith@example.com",
+        "username": "msmith_coder",
+        "first_name": "Michael",
+        "last_name": "Smith",
+        "topics": "Cloud Computing, AWS, Kubernetes",
+        "current_job_title": "DevOps Engineer",
+        "career_description": "Michael has extensive experience in cloud infrastructure, automating deployment pipelines, and managing scalable cloud solutions using AWS, Kubernetes, and Docker"
+    },
+    {
+        "id": 5,
+        "email": "lily.thomas@example.com",
+        "username": "lily_th",
+        "first_name": "Lily",
+        "last_name": "Thomas",
+        "topics": "Blockchain, Cryptography, Decentralized Applications",
+        "current_job_title": "Blockchain Developer",
+        "career_description": "Lily is a developer with expertise in building decentralized applications on blockchain networks. She\u2019s passionate about smart contracts, security protocols, and cryptographic systems"
+    },
+    {
+        "id": 6,
+        "email": "mark.bell@example.com",
+        "username": "mbell_admin",
+        "first_name": "Mark",
+        "last_name": "Bell",
+        "topics": "Network Security, Cybersecurity, Ethical Hacking",
+        "current_job_title": "Security Analyst",
+        "career_description": "Mark helps organizations strengthen their security infrastructure by conducting vulnerability assessments, penetration testing, and ensuring compliance with security regulations"
+    },
+    {
+        "id": 7,
+        "email": "olivia.taylor@example.com",
+        "username": "otaylor.dev",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "topics": "Full Stack Development, Python, Django",
+        "current_job_title": "Full Stack Developer",
+        "career_description": "Olivia is a versatile developer proficient in both frontend and backend technologies, specializing in building robust web applications using Python, Django, and modern JavaScript frameworks"
+    },
+    {
+        "id": 8,
+        "email": "james.baker@example.com",
+        "username": "james_b2024",
+        "first_name": "James",
+        "last_name": "Baker",
+        "topics": "Digital Marketing, SEO, Content Strategy",
+        "current_job_title": "Digital Marketing Manager",
+        "career_description": "James creates and executes digital marketing strategies that drive online traffic and enhance brand visibility through content optimization, SEO techniques, and paid media campaigns"
+    },
+    {
+        "id": 9,
+        "email": "anna.morris@example.com",
+        "username": "amor_analytics",
+        "first_name": "Anna",
+        "last_name": "Morris",
+        "topics": "Business Intelligence, Data Visualization, Tableau",
+        "current_job_title": "BI Analyst",
+        "career_description": "Anna excels at transforming raw data into actionable insights through data visualization tools like Tableau, enabling organizations to make informed business decisions"
+    },
+    {
+        "id": 10,
+        "email": "david.wilson@example.com",
+        "username": "dwilson_it",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "topics": "IT Support, Troubleshooting, Systems Administration",
+        "current_job_title": "IT Support Specialist",
+        "career_description": "David provides technical support for hardware and software issues, manages system configurations, and ensures smooth operation of IT infrastructure across multiple platforms"
+    },
+    {
+        "id": 11,
+        "email": "maria.lopez@example.com",
+        "username": "mlopez_dev",
+        "first_name": "Maria",
+        "last_name": "Lopez",
+        "topics": "Java, Spring Boot, Microservices",
+        "current_job_title": "Backend Developer",
+        "career_description": "Maria is a backend specialist who builds scalable and efficient microservices using Java and Spring Boot, focusing on optimizing server-side logic for high-performance applications"
+    },
+    {
+        "id": 12,
+        "email": "william.kim@example.com",
+        "username": "williamkAI",
+        "first_name": "William",
+        "last_name": "Kim",
+        "topics": "Artificial Intelligence, Natural Language Processing, Python",
+        "current_job_title": "AI Engineer",
+        "career_description": "William develops AI-powered solutions, with a focus on natural language processing and machine learning, using Python frameworks such as TensorFlow and PyTorch to automate complex tasks"
     },
     {
         "id": 13,
-        "email": "emily.davis@example.com",
-        "username": "emilydavis567",
-        "first_name": "Emily",
-        "last_name": "Davis",
-        "topics": "UX/UI Design, Product Design, Prototyping",
-        "current_job_title": "UX Designer",
-        "career_description": "Emily is a talented UX/UI designer with extensive experience in creating user-centered designs. She excels in turning complex user needs into beautiful and functional interfaces.\""
+        "email": "sophie.carter@example.com",
+        "username": "scarter_design",
+        "first_name": "Sophie",
+        "last_name": "Carter",
+        "topics": "Web Design, HTML5, CSS3",
+        "current_job_title": "Web Designer",
+        "career_description": "Sophie combines her passion for design and coding to create visually appealing websites. She ensures mobile responsiveness and user-friendly navigation while maintaining a modern aesthetic"
     },
     {
         "id": 14,
-        "email": "robert.brown@example.com",
-        "username": "robertbrown77",
-        "first_name": "Robert",
-        "last_name": "Brown",
-        "topics": "Cloud Computing, AWS, DevOps",
-        "current_job_title": "DevOps Engineer",
-        "career_description": "Robert is a DevOps engineer specializing in cloud computing with a focus on AWS services. He is passionate about automating deployment pipelines and improving infrastructure efficiency."
+        "email": "daniel.lee@example.com",
+        "username": "dlee_tech",
+        "first_name": "Daniel",
+        "last_name": "Lee",
+        "topics": "Software Development, APIs, Node.js",
+        "current_job_title": "Software Engineer",
+        "career_description": "Daniel designs and develops full-stack applications, specializing in creating robust APIs using Node.js and Express, while maintaining high performance and scalability across platforms"
     },
     {
         "id": 15,
-        "email": "sarah.connor@example.com",
-        "username": "sarahconnor88",
-        "first_name": "Sarah",
-        "last_name": "Connor",
-        "topics": "Robotics, Artificial Intelligence, Automation",
-        "current_job_title": "Robotics Engineer",
-        "career_description": "Sarah is a robotics engineer with a strong foundation in AI and automation technologies. She has worked on various projects involving robotic systems and intelligent machines, aiming to enhance efficiency and performance in industrial applications."
+        "email": "chloe.miller@example.com",
+        "username": "cmiller_ux",
+        "first_name": "Chloe",
+        "last_name": "Miller",
+        "topics": "User Experience, Prototyping, Figma",
+        "current_job_title": "UX Designer",
+        "career_description": "Chloe focuses on enhancing user interactions through meticulous research, wireframing, and prototyping. She is proficient in Figma and believes in creating intuitive interfaces that meet user needs"
     },
     {
         "id": 16,
-        "email": "emily.carter@example.com",
-        "username": "emily_the_expert",
-        "first_name": "Emily",
-        "last_name": "Carter",
-        "topics": "Artificial Intelligence, Machine Learning, Data Ethics",
-        "current_job_title": "Senior Data Scientist",
-        "career_description": "With over a decade of experience in data science, Dr. Carter specializes in developing ethical AI solutions that drive impactful change in the tech industry."
+        "email": "alex.brown@example.com",
+        "username": "abrown_sysadmin",
+        "first_name": "Alex",
+        "last_name": "Brown",
+        "topics": "System Administration, Windows Server, Linux",
+        "current_job_title": "Systems Administrator",
+        "career_description": "Alex maintains and troubleshoots IT systems, ensuring network security and server uptime. He manages both Windows and Linux environments, supporting mission-critical operations"
     },
     {
         "id": 17,
-        "email": "jessica.taylor@example.com",
-        "username": "jess_talks",
-        "first_name": "Jessica",
-        "last_name": "Taylor",
-        "topics": "User Experience Design, Product Development, Accessibility",
-        "current_job_title": "UX Designer",
-        "career_description": "With a focus on user-centric design, Jessica has a track record of creating accessible and engaging digital experiences for a diverse audience."
+        "email": "laura.evans@example.com",
+        "username": "levans_data",
+        "first_name": "Laura",
+        "last_name": "Evans",
+        "topics": "Data Analytics, SQL, Power BI",
+        "current_job_title": "Data Analyst",
+        "career_description": "Laura specializes in mining data to provide valuable business insights. She uses SQL and Power BI to create detailed reports and dashboards that support data-driven decision-making"
     },
     {
         "id": 18,
-        "email": "emma.watson@example.com",
-        "username": "emmacreative",
-        "first_name": "Emma",
-        "last_name": "Watson",
-        "topics": "User Experience, Interaction Design, Usability Testing",
-        "current_job_title": "UX Designer",
-        "career_description": "Emma is a UX designer with a passion for creating intuitive and engaging user experiences. She specializes in interaction design and usability testing, ensuring that her designs not only look great but also function seamlessly. With experience in both web and mobile applications, Emma focuses on user-centered design principles to deliver products that meet users' needs."
+        "email": "nathan.hall@example.com",
+        "username": "nhall_devops",
+        "first_name": "Nathan",
+        "last_name": "Hall",
+        "topics": "Automation, CI/CD, Docker",
+        "current_job_title": "DevOps Engineer",
+        "career_description": "Nathan automates software deployment pipelines, focusing on improving development workflows through CI/CD tools, containerization with Docker, and cloud infrastructure management"
     },
     {
         "id": 19,
-        "email": "james.bennett@example.com",
-        "username": "jimbennett",
-        "first_name": "James",
-        "last_name": "Bennett",
-        "topics": "Blockchain, Cryptocurrency, Decentralized Finance",
-        "current_job_title": "Blockchain Consultant",
-        "career_description": "James is a blockchain expert who advises companies on how to implement decentralized systems and cryptocurrencies into their business models. With years of experience in decentralized finance, he has helped startups and enterprises navigate the complex world of blockchain technologies."
+        "email": "isabella.roberts@example.com",
+        "username": "iroberts_ml",
+        "first_name": "Isabella",
+        "last_name": "Roberts",
+        "topics": "Machine Learning, Deep Learning, TensorFlow",
+        "current_job_title": "Machine Learning Engineer",
+        "career_description": "Isabella builds intelligent systems that can learn and improve from data. She leverages deep learning techniques and frameworks like TensorFlow to develop AI models for predictive analytics"
     },
     {
         "id": 20,
-        "email": "linda.mckenzie@example.com",
-        "username": "lindamc",
-        "first_name": "Linda",
-        "last_name": "McKenzie",
-        "topics": "Sustainability, Renewable Energy, Green Technology",
-        "current_job_title": "Sustainability Strategist",
-        "career_description": "Linda is a sustainability strategist who helps organizations transition to renewable energy and implement sustainable practices. She has worked with various industries to reduce their carbon footprint and embrace green technologies, promoting eco-friendly innovation."
-    },
-    {
-        "id": 21,
-        "email": "raj.patel@example.com",
-        "username": "rajtheinnovator",
-        "first_name": "Raj",
-        "last_name": "Patel",
-        "topics": "Artificial Intelligence, Machine Learning, Data Science",
-        "current_job_title": "AI Researcher",
-        "career_description": "Raj is an AI researcher specializing in machine learning and data science. He has a strong academic and industry background, working on cutting-edge AI technologies that aim to solve complex problems. Raj enjoys sharing insights on the future of AI and its potential to revolutionize industries"
-    },
-    {
-        "id": 22,
-        "email": "sophia.martinez@example.com",
-        "username": "sophiamart",
-        "first_name": "Sophia",
-        "last_name": "Martinez",
-        "topics": "Digital Marketing, Brand Strategy, Social Media",
-        "current_job_title": "Digital Marketing Expert",
-        "career_description": "Sophia is a digital marketing strategist with over a decade of experience in helping brands build their online presence. She specializes in social media marketing and brand strategy, working with both startups and established companies to create effective digital campaigns that resonate with audiences."
-    },
-    {
-        "id": 23,
-        "email": "aaron.kim@example.com",
-        "username": "aaronkim",
-        "first_name": "Aaron",
-        "last_name": "Kim",
-        "topics": "Cybersecurity, Ethical Hacking, Privacy",
-        "current_job_title": "Cybersecurity Consultant",
-        "career_description": "Aaron is a cybersecurity expert who advises organizations on how to protect their digital infrastructure. With a background in ethical hacking, he provides insights on data privacy, secure software development, and cyber risk management. Aaron is passionate about educating people on the importance of cybersecurity in the digital age."
+        "email": "david.martin@example.com",
+        "username": "dmartin_frontend",
+        "first_name": "David",
+        "last_name": "Martin",
+        "topics": "Frontend Development, Vue.js, CSS",
+        "current_job_title": "Frontend Developer",
+        "career_description": "David is a frontend developer skilled in crafting interactive user interfaces with Vue.js. He ensures seamless user experiences by delivering responsive designs and well-structured code"
     }
 ]

@@ -94,7 +94,7 @@ const Chatbot = () => {
             type="text"
             value={userPrompt}
             onChange={handleInputChange}
-            placeholder="Ask me anything..."
+            placeholder="What kind of speaker are you looking for?"
             required
             className="w-full p-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none mb-4"
           />

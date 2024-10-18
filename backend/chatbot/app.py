@@ -94,20 +94,22 @@ def extract_speaker_by_numbers(speaker_numbers):
 
     for speaker_number in speaker_numbers:
         try:
-            speaker_number = int(speaker_number.strip())
+            # Convert speaker number to integer and adjust for 0-based indexing
+            speaker_number = int(speaker_number.strip()) - 1  # Subtract 1 for 0-based index
         except ValueError:
             print(f"Error: Invalid speaker number '{speaker_number}' received.")
             continue
 
-        if 1 <= speaker_number <= len(speakers):
-            speaker = speakers[speaker_number - 1]
+        # Check if the speaker number is valid in the list
+        if 0 <= speaker_number < len(speakers):
+            speaker = speakers[speaker_number]
             matched_speakers.append({
                 'name': f"{speaker['first_name']} {speaker['last_name']}",
                 'expertise': speaker['topics'],
                 'bio': speaker['career_description']
             })
         else:
-            print(f"Error: Speaker number '{speaker_number}' out of range.")
+            print(f"Error: Speaker number '{speaker_number + 1}' out of range.")
 
     return matched_speakers
 
@@ -134,9 +136,20 @@ def suggest_speakers_from_user_input(user_input: str):
     matched_speakers = extract_speaker_by_numbers(speaker_numbers)
     print("Matched Speakers:", matched_speakers)
 
-    if matched_speakers:
+    # Filter speakers based on user input keywords
+    relevant_keywords = [keyword.lower() for keyword in re.findall(r'\w+', user_input)]
+
+    filtered_speakers = []
+    for speaker in matched_speakers:
+        expertise_lower = speaker['expertise'].lower()
+        # Check if any of the keywords match the speaker's expertise
+        if any(keyword in expertise_lower for keyword in relevant_keywords):
+            filtered_speakers.append(speaker)
+
+    # If relevant speakers found, return them; otherwise, return the default message
+    if filtered_speakers:
         response = "Suggested Speakers:\n"
-        for speaker in matched_speakers:
+        for speaker in filtered_speakers:
             response += f"- {speaker['name']}\n  Expertise: {speaker['expertise']}\n  Bio: {speaker['bio']}\n"
         print("Response to Frontend:", response)
         return response
